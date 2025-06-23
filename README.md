@@ -36,7 +36,7 @@ the project focuses on making a web server inside the RPi, by a PIR sensor pytho
 ---
 
 
-⚙️ Operation Flow
+## ⚙️ Operation Flow
 1. Motion in >4s: PIR sensor triggers.
 
 2. Script waits for 4+ secs of continuous motion.
