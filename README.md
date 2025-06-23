@@ -26,7 +26,7 @@ A motion-triggered Raspberry Pi surveillance system using:
 sudo apt update
 sudo apt install python3-gpiozero python3-picamera python3-flask
 pip3 install flask-mail
-'''
+```
 ---
 
 ## How the Project works
