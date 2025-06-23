@@ -26,3 +26,27 @@ A motion-triggered Raspberry Pi surveillance system using:
 sudo apt update
 sudo apt install python3-gpiozero python3-picamera python3-flask
 pip3 install flask-mail
+
+---
+
+## How the Project works
+
+the project focuses on making a web server inside the RPi, by a PIR sensor python file so that if the detected movement is more than 4 seconds, a **photo will be taken by the RPi** and **will be sent to the email of the car/home owner and the buzzer will alarm the user.** Also, inside **the web server**, there will be a **tab** for the user that he can check. This **tab will be updated automatically and will show the last photo taken.**
+
+⚙️ Operation Flow
+1. Motion in >4s: PIR sensor triggers.
+
+2. Script waits for 4+ secs of continuous motion.
+
+3. Capture image via PiCamera.
+
+4. Activate buzzer alarm (2–5 secs).
+
+5. Send email with the captured image via SMTP to the user's gmail.
+
+6. Add image to web server.
+
+7. Web interface: Displays latest image, auto-refreshing periodically.
+
+![Web server giving the User the last pic taken](https://github.com/user-attachments/assets/c20931bd-18e0-44ca-97aa-af5071b8432e)
+
