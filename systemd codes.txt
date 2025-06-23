@@ -1,0 +1,71 @@
+##
+cd /lib/systemd/system
+ls
+##
+to see the systemd files
+
+
+##
+sudo nano project_movement_detection_PIR_camera.service
+##
+to create/edit a file there (PIR/step 4)
+
+
+##
+sudo nano project_movement_detection_web_server.service
+##
+to create/edit a file there (we/step 6)
+
+
+##
+sudo systemctl start project_movement_detection_PIR_camera.service
+##
+starts the movement detection program(without thonny or terminal)
+
+
+##
+sudo systemctl start project_movement_detection_web_server.service
+##
+starts the web server program(without thonny or terminal)
+
+
+##
+sudo systemctl stop project_movement_detection_PIR_camera.service
+##
+
+
+##
+sudo systemctl stop project_movement_detection_web_server.service
+##
+
+
+##
+sudo systemctl enable project_movement_detection_PIR_camera.service
+##
+this will make the program start automatically after rebooting
+
+
+##
+sudo systemctl enable project_movement_detection_web_server.service
+##
+this will make the program start automatically after rebooting
+
+if I used stop, it will stop the service for now but if I reboot it will start again
+so to stop it completely,
+
+
+##
+sudo systemctl list-unit-files | grep project
+##
+this will show all files in systemd with project in it's name and whether they are enabled or not.
+
+
+##
+sudo systemctl disable project_movement_detection_PIR_camera.service
+##
+this will disable the service
+
+
+##
+sudo systemctl disable project_movement_detection_web_server.service
+##
