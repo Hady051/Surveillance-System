@@ -1,5 +1,7 @@
 # 🛡️ RPi PIR-Camera Surveillance System with Buzzer & Web Interface
 
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 A motion-triggered Raspberry Pi surveillance system using:
 - **Raspberry Pi 4**
 - **Pi Camera v2**
