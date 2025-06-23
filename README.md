@@ -52,6 +52,5 @@ the project focuses on making a web server inside the RPi, by a PIR sensor pytho
 7. Web interface: Displays latest image, auto-refreshing periodically.
 
 ---
-
-![Web server giving the User the last pic taken](https://github.com/user-attachments/assets/bd373a8d-e97e-4527-9bed-e525830b89de)
+![photo_2025-06-23_23-26-29](https://github.com/user-attachments/assets/f5e61017-6ead-419c-bbce-8672b1b20227)
 
